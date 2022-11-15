@@ -10,7 +10,7 @@ int main()
     scanf("%d",&powtorzenia);
     licznik= 0;
     for ( i=0; i<powtorzenia; i++) {
-        x = (double)rand()/RAND_MAX;
+        x = (double)rand()/RAND_MAX;  // RAND_MAX losowa liczba w zasięgu 0-2^31-1
         y = (double)rand()/RAND_MAX;
         z = x * x + y * y;
         if (z<=1) 
