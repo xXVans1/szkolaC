@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 
+//POPRAWNA SILNIA W FOLDERZE Z POPRAWIONYMI RZECZAMI
+
+
 int main(){
 
     unsigned long long  int wynik,i;
