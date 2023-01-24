@@ -9,7 +9,7 @@ int main(int argc, char **argv) {
     return 1;
   }
 
-  // Open file for binary reading
+
   FILE *file1, *file2;
   char password[256];
   int password_length;
@@ -28,10 +28,9 @@ int main(int argc, char **argv) {
     return 1;
   }
 
-  // Open temporary file for binary writing
   file2 = fdopen(fd, "wb");
   if (file2 == NULL) {
-    printf("Error: failed to open temporary file for writing.\n");
+    printf("Bład w otwieraniu tymczasowego pliku do nadpisu!\n");
     return 1;
   }
 
